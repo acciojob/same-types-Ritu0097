@@ -2,7 +2,7 @@ function isSameType(value1, value2) {
   if(typeof(value1)==typeof(value2)){
 	  return true;
   }
-	else if(typeof(value1)||typeof(value2)=="NaN"){
+	else if(typeof(value1)||typeof(value2)==NaN){
 		return false;
 	}
 	else{
