@@ -5,6 +5,9 @@ function isSameType(value1, value2) {
 	else{
 		return false;
 	}
+	if(typeof(value1)||typeof(value2)==NaN){
+		return false;
+	}
 }
 
 do not change the code below.
